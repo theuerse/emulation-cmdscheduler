@@ -1,0 +1,20 @@
+1.001667	sudo tc qdisc add dev lo root netem loss random 10
+2.001667	sudo tc qdisc change dev lo root netem loss random 20
+3.001667	sudo tc qdisc change dev lo root netem loss random 30
+4.001667	sudo tc qdisc change dev lo root netem loss random 40
+5.001667	sudo tc qdisc change dev lo root netem loss random 50
+6.001667	sudo tc qdisc change dev lo root netem loss random 60
+7.001667	sudo tc qdisc change dev lo root netem loss random 70
+8.001667	sudo tc qdisc change dev lo root netem loss random 80
+9.001667	sudo tc qdisc change dev lo root netem loss random 90
+10.001667	sudo tc qdisc change dev lo root netem loss random 80
+11.001667	sudo tc qdisc change dev lo root netem loss random 70
+12.001667	sudo tc qdisc change dev lo root netem loss random 60
+13.001667	sudo tc qdisc change dev lo root netem loss random 50
+14.001667	sudo tc qdisc change dev lo root netem loss random 40
+15.001667	sudo tc qdisc change dev lo root netem loss random 30
+16.001667	sudo tc qdisc change dev lo root netem loss random 20
+17.001667	sudo tc qdisc change dev lo root netem loss random 10
+18.001667	sudo tc qdisc change dev lo root netem loss random 20
+19.001667	sudo tc qdisc change dev lo root netem loss random 30
+20.001667	sudo tc qdisc delete dev lo root

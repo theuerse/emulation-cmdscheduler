@@ -1,0 +1,20 @@
+1.001667	time printf "qdisc add dev lo root netem loss random 10" | sudo tc -batch -
+2.001667	time printf "qdisc change dev lo root netem loss random 20" | sudo tc -batch -
+3.001667	time printf "qdisc change dev lo root netem loss random 30" | sudo tc -batch -
+4.001667	time printf "qdisc change dev lo root netem loss random 40" | sudo tc -batch -
+5.001667	time printf "qdisc change dev lo root netem loss random 50" | sudo tc -batch -
+6.001667	time printf "qdisc change dev lo root netem loss random 60" | sudo tc -batch -
+7.001667	time printf "qdisc change dev lo root netem loss random 70" | sudo tc -batch -
+8.001667	time printf "qdisc change dev lo root netem loss random 80" | sudo tc -batch -
+9.001667	time printf "qdisc change dev lo root netem loss random 90" | sudo tc -batch -
+10.001667	time printf "qdisc change dev lo root netem loss random 80" | sudo tc -batch -
+11.001667	time printf "qdisc change dev lo root netem loss random 70" | sudo tc -batch -
+12.001667	time printf "qdisc change dev lo root netem loss random 60" | sudo tc -batch -
+13.001667	time printf "qdisc change dev lo root netem loss random 50" | sudo tc -batch -
+14.001667	time printf "qdisc change dev lo root netem loss random 40" | sudo tc -batch -
+15.001667	time printf "qdisc change dev lo root netem loss random 30" | sudo tc -batch -
+16.001667	time printf "qdisc change dev lo root netem loss random 20" | sudo tc -batch -
+17.001667	time printf "qdisc change dev lo root netem loss random 10" | sudo tc -batch -
+18.001667	time printf "qdisc change dev lo root netem loss random 20" | sudo tc -batch -
+19.001667	time printf "qdisc change dev lo root netem loss random 30" | sudo tc -batch -
+20.001667	time printf "qdisc delete dev lo root" | sudo tc -batch -
