@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(EXECUTABLE_OUTPUT_PATH "build")
 add_executable(cmdScheduler src/cmdScheduler.cpp)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
